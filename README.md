@@ -69,7 +69,6 @@ useful to teach refactoring and testing of legacy code:
 
 - The method UpdateQuality() has a [Cyclomatic Complexity](http://en.wikipedia.org/wiki/Cyclomatic_complexity) of 19. The configured cyclomatic complexity threshold is 10.
 - The method UpdateQuality() has an [NPath complexity](http://codingswag.ghost.io/cyclomatic-and-npath-complexity-explained/) of 211. The configured NPath complexity threshold is 200.
-- 
 
 ##Scoring
 
