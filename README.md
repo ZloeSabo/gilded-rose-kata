@@ -1,12 +1,14 @@
 # Gilded Rose Kata for PHP
 
-Port of the Gilded Rose Kata for C# (https://github.com/NotMyself/GildedRose)
 
 ## Install
 
-* Git Checkout: git clone https://github.com/qafoo/gilded-rose-kata
-* Generate Autoloader: composer dump-autoload
-* Run tests with "phpunit"
+* Checkout project: ```git clone https://github.com/ZloeSabo/gilded-rose-kata```
+* Generate autoloader with [Composer](https://getcomposer.org/): ```composer dump-autoload```
+* Run tests with [PHPUnit](https://phpunit.de/)
+
+## About
+*Code Kata* is a term coined by Dave Thomas, co-author of the book The Pragmatic Programmer, in a bow to the Japanese concept of kata in the martial arts. A code kata is an exercise in programming which helps a programmer hone their skills through practice and repetition.
 
 ## Introduction
 
@@ -47,8 +49,7 @@ as long as everything still works correctly. However, do not alter the Item
 class or Items property as those belong to the goblin in the corner who will
 insta-rage and one-shot you as he doesn't believe in shared code ownership (you
 can make the UpdateQuality method and Items property static if you like, we'll
-cover for you). Your work needs to be completed by Friday, February 18, 2011
-08:00:00 AM PST.
+cover for you).
 
 Just for clarification, an item can never have its Quality increase above 50,
 however "Sulfuras" is a legendary item and as such its Quality is 80 and it
@@ -66,6 +67,18 @@ the code to be SOLID.
 The GildedRose UpdateQuality() method has a very high complexity and is very 
 useful to teach refactoring and testing of legacy code:
 
-- The method UpdateQuality() has a Cyclomatic Complexity of 19. The configured cyclomatic complexity threshold is 10.
-- The method UpdateQuality() has an NPath complexity of 211. The configured NPath complexity threshold is 200.
+- The method UpdateQuality() has a [Cyclomatic Complexity](http://en.wikipedia.org/wiki/Cyclomatic_complexity) of 19. The configured cyclomatic complexity threshold is 10.
+- The method UpdateQuality() has an [NPath complexity](http://codingswag.ghost.io/cyclomatic-and-npath-complexity-explained/) of 211. The configured NPath complexity threshold is 200.
+- 
+
+##Scoring
+
+Your final score depends on following skills:
+- Ability to efficiently work with legacy code
+- Ability to write tests
+- Ability to refactor
+- Ability to produce clean code
+- Ability to work with requirements
+
+**P.S.** It's dangerous to go alone! Take [this](http://google.com)!
 
